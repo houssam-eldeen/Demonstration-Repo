@@ -1,0 +1,168 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+h3{
+    color: red;
+    text-shadow: 4px 4px 5px rgb(71, 10, 10);
+}
+
+.title {
+    color: rgb(5, 90, 10);
+}
+
+.title2{
+    color: rgb(34, 31, 207);
+}
+
+#italic {
+    color: orange;
+}
+
+.container {
+    /* border: 5px solid grey; */
+    /* border: 20px dotted rgb(0, 255, 64); */
+    border: 20px dashed rgb(0, 255, 64);
+  /*  
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+*/
+    /* OR just use all values in clock-wise */
+    margin: 25px 25px 25px 0px;
+/*
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+*/
+    /* OR just use all values in clock-wise */
+    padding: 30px 5px 30px 5px;
+
+}
+
+
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+/* Border Box shadow : right- bottom- bullet-color*/
+img {
+    box-shadow: 8px 8px 10px rgb(154, 159, 160);
+}
+
+.box {
+   
+    height: 200px;
+    width: 200px;
+    background: blue;
+    margin: 10px; /* top-bottom right-left */
+    box-shadow: 8px 8px 10px 10px rgb(154, 159, 160) inset;
+}
+
+.flex {
+    border: 3px solid black;
+    margin: 30px;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;/* make it flexible size */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    flex-direction: column-reverse;
+}
+
+form input, textarea, button {
+
+    display: block;
+    margin: 30px;
+}
+
+.nav-wrapper {
+    background-color: rgb(146, 135, 241);
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 30px;
+}
+
+.input-field {
+    margin: 20px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 100px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+}
+
+.Box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
+
+}
+
+.a {
+    grid-column: col / span  2;
+    grid-row: row ;
+}
+.b {
+    grid-column: col 3 / span  3 ;
+    grid-row: row ;
+}
+.c {
+    grid-column: col ;
+    grid-row: row 2 ;
+}
+.d {
+    grid-column: col 2 / span  3 ;
+    grid-row: row 2 ;
+}
+
+.e {
+    grid-column: col / span  5;
+    grid-row: row 3;
+}
+
+.f {
+    grid-column: col 3 / span 3;
+    grid-row: row 2  ;
+    background-color: rgba(49,121,207, 0.5);
+    z-index: 20;
+}
+
